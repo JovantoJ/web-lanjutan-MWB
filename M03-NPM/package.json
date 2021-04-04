@@ -1,0 +1,15 @@
+{
+  "name": "ok",
+  "version": "1.0.0",
+  "description": "minggu3",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jovanto",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
