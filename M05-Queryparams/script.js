@@ -12,7 +12,7 @@ app.get("/api/:nim/:nama", function (req, res) {
   res.send(req.params);
 });
 
-app.get("/api/cari", function (req, res, next) {
+app.get("/api/search", function (req, res, next) {
   var nama = req.query.nama;
   console.log(`nama : ${nama}`);
   var umur = req.query.umur;
